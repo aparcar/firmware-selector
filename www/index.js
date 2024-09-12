@@ -763,7 +763,7 @@ async function init() {
         return obj.json();
       } else {
         // .versions.json is optional
-        return {versions_list: []}
+        return { versions_list: [] };
       }
     })
     .then((obj) => {
